@@ -177,3 +177,127 @@ body {
     color: aliceblue;
     text-decoration: none;
 }
+
+.meh{
+    height: fit-content;
+    width: 80vh;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: aliceblue;
+    padding-left: 4vh;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+.abm{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.iam{
+    font-family: sans-serif;
+    font-size: 16px;
+    opacity: 80%;
+}
+
+.exinfo{
+    padding-top: 10vh;
+}
+
+.exinfohead{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.exinfo ol li{
+    font-family: sans-serif;
+    font-size: 16px;
+    opacity: 80%;
+}
+
+.flax{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.languagestack{
+    width: 80vh;
+    height: fit-content;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: aliceblue;
+    padding-left: 4vh;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+.progressbar{
+    width: 60vh;
+    height: 2vh;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 1px;
+}
+
+.progresspy{
+    height: 2vh;
+    width: 30vh;
+    background-color: aliceblue;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.progressht{
+    height: 2vh;
+    width: 50vh;
+    background-color: aliceblue;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.progresscs{
+    height: 2vh;
+    width: 45vh;
+    background-color: aliceblue;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.progressjs{
+    height: 2vh;
+    width: 20vh;
+    background-color: aliceblue;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.progressnjs{
+    height: 2vh;
+    width: 10vh;
+    background-color: aliceblue;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.progressj{
+    height: 2vh;
+    width: 15vh;
+    background-color: aliceblue;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.v{
+    padding-top: 2vh;
+}
+
+.stack{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: sans-serif;
+}
