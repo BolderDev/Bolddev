@@ -454,3 +454,41 @@ html, body {
         font-size: 26px;
     }
 }
+
+@media(min-width: 1125px) {
+    .disapp{
+        display: none;
+    }
+}
+
+@media(max-width: 1125px){
+    .lidissapp{
+        display: none;
+    }
+
+    .b{
+        padding-left: 5vh;
+    }
+
+    .right{
+        padding-top: 3vh;
+    }
+}
+
+@media(max-width: 786px){
+    .logoname{
+        font-size: 26px;
+    }
+
+    .logo{
+        height: 10vh;
+    }
+
+    .navbar{
+        flex-direction: row;
+    }
+
+    .right{
+        padding-top: 5vh;
+    }
+}
