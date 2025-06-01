@@ -70,6 +70,10 @@ body {
     display: flex;
 }
 
+.right{
+    display: flex;
+}
+
 .hover{
     text-decoration: none;
     color: aliceblue;
@@ -83,6 +87,7 @@ body {
 }
 
 .who {
+    backdrop-filter: blur(100%);
     height: fit-content;
     width: 90%;
     margin-top: 60px;
@@ -211,8 +216,8 @@ body {
 }
 
 .flax{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    gap: 50px;
 }
 
 .languagestack{
@@ -292,4 +297,117 @@ body {
     font-weight: 700;
     font-size: 30px;
     font-family: sans-serif;
+}
+
+@media only screen and (max-width: 1114px){
+    .flax{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .meh{
+        margin-top: 50px;
+        width: auto;
+    }
+
+    .languagestack{
+        width: auto;
+    }
+
+    .progressbar{
+        width: auto;
+    }
+    .progressj{
+        width: 40vh;
+    }
+    .progressnjs{
+        width: 50vh;
+    }
+    .progresscs{
+        width: 75vh;
+    }
+    .progressjs{
+        width: 70vh;
+    }
+    .progressht{
+        width: 90vh;
+    }
+    .progresspy{
+        width: 80vh;
+    }
+        .meh{
+        padding-right: 10px;
+    }
+
+    .languagestack{
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 1114px){
+    .right{
+        flex-direction: column;
+    }
+}
+
+html, body {
+  overflow: auto;
+}
+
+@media only screen and (max-width: 800px){
+    .progressj{
+        width: 10vh;
+    }
+    .progressnjs{
+        width: 15vh;
+    }
+    .progresscs{
+        width: 45vh;
+    }
+    .progressjs{
+        width: 30vh;
+    }
+    .progressht{
+        width: 55vh;
+    }
+    .progresspy{
+        width: 50vh;
+    }
+
+    .meh{
+        padding-right: 10px;
+    }
+
+    .languagestack{
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 460px){
+    .progressj{
+        width: 4vh;
+    }
+    .progressnjs{
+        width: 8vh;
+    }
+    .progresscs{
+        width: 27vh;
+    }
+    .progressjs{
+        width: 20vh;
+    }
+    .progressht{
+        width: 30vh;
+    }
+    .progresspy{
+        width: 26vh;
+    }
+
+    .meh{
+        padding-right: 10px;
+    }
+
+    .languagestack{
+        padding-right: 10px;
+    }
 }
