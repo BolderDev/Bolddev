@@ -51,14 +51,16 @@ body {
     padding: 1rem;
     margin: auto;
     height: 100px;
-    width: 80%;
+    width: 90%;
     align-items: center;
 }
 
 .logo {
-    height: 12vh;
+    height: 10vh;
     border-radius: 50px;
     width: auto;
+    display: flex;
+    align-items: center;
 }
 
 .left{
@@ -68,10 +70,12 @@ body {
     justify-items: center;
     justify-content: center;
     display: flex;
+    padding-bottom: 3.3vh;
 }
 
 .right{
     display: flex;
+    align-items: center;
 }
 
 .hover{
@@ -412,6 +416,20 @@ html, body {
     }
 }
 
+@media(max-width: 500px){
+    .hover{
+        padding-left: 0;
+    }
+
+    .b{
+        margin-left: -10px;
+    }
+
+    .right{
+        margin-bottom: 1.3vh;
+    }
+}
+
 .sidebar{
     position: fixed;
     width: 250px;
@@ -430,29 +448,12 @@ html, body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    text-align: left;
     gap: 25px;
 }
 
 .sidebar a{
     width: 100%;
-}
-
-@media(min-width: 1125px) {
-    .disapp{
-        display: none;
-    }
-}
-
-@media(max-width: 1125px){
-    .lidissapp{
-        display: none;
-    }
-}
-
-@media(max-width: 786px){
-    .logoname{
-        font-size: 26px;
-    }
 }
 
 @media(min-width: 1125px) {
@@ -472,6 +473,7 @@ html, body {
 
     .right{
         padding-top: 3vh;
+        padding-left: 3vh;
     }
 }
 
@@ -481,7 +483,7 @@ html, body {
     }
 
     .logo{
-        height: 10vh;
+        height: 8vh;
     }
 
     .navbar{
@@ -564,6 +566,19 @@ main span{
 }
 
 .gl{
+    padding-top: 5vh;
+    opacity: 90%;
+    font-size: 16px;
+}
+
+.centerplss{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    margin: auto;
+    width: 80%;
+    justify-content: space-between;
+}
     padding-top: 5vh;
     opacity: 90%;
     font-size: 16px;
