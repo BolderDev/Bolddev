@@ -492,3 +492,79 @@ html, body {
         padding-top: 5vh;
     }
 }
+
+main span{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.blurry1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: fit-content;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding-top: 4vh;
+    padding-right: 4vh;
+    padding-left: 4vh;
+    padding-bottom: 4vh;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.hows{
+    font-size: 16px;
+    opacity: 80%;
+}
+
+.cont{
+    font-size: 20px;
+    gap: 10px;
+    padding-top: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+.oka{
+    font-size: 24px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.fastest{
+    opacity: 80%;
+}
+
+.gitgit{
+    font-size: 20px;
+    padding-top: 5vh;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.co{
+    font-size: 24px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.you{
+    opacity: 80%;
+}
+
+.phn{
+    padding-top: 5vh;
+    opacity: 90%;
+    display: flex;
+    gap: 10px;
+}
+
+.gl{
+    padding-top: 5vh;
+    opacity: 90%;
+    font-size: 16px;
+}
